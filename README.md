@@ -1,16 +1,16 @@
 # DAY-1
 1.Difference between HTTP 1.1 and HTTP 2 
 
-	    HTTP 1.1	                                                 HTTP 2
+	    HTTP 1.1	                                             			    HTTP 2
 
 	It works on the textual format
-	                                                                 It works on the binary protocol
+	                                                               			  It works on the binary protocol
 	There is head pf line blocking that blocks all the 
-   requests behind it until it doesn’t get its all resources.	     It allows multiplexing so one TCP (Transmission Control Protocol) connection is required for multiple                                                                     requests.  
+   requests behind it until it doesn’t get its all resources.	     		It allows multiplexing so one TCP (Transmission Control Protocol) connection is required 										for multiple requests.  
    
-	It uses requests resource in lining for use getting pages.	     It uses PUSH frame by server that collects all multiple pages.
+	It uses requests resource in lining for use getting pages.	   	  It uses PUSH frame by server that collects all multiple pages.
   
-	It compresses data by itself	                                   It uses   Compressed file archive (HPack) for data compression
+	It compresses data by itself	                                 	  It uses   Compressed file archive (HPack) for data compression
 
 	Low performance                                                 	High performance
 
